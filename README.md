@@ -156,7 +156,7 @@ AND country.name = "United States"
 ORDER BY percentage DESC;
 ```
 
-```
+```sql
 SELECT country.name, "language", percentage, isofficial
 FROM country JOIN countrylanguage
 ON country.code = countrylanguage.countrycode
